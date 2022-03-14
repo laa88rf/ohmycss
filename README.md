@@ -2,7 +2,7 @@
 Customize your pages in Google Chrome
 
 ## Installation
-1. Download the project and unzip
+1. Download the project and extract
 2. Open chrome://extensions/
 3. Enable "Developer Mode"
 4. Press "Load unpacked" and choose a directory with extracted content.
