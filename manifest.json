@@ -1,0 +1,29 @@
+{
+  "name": "Oh my CSS",
+  "description": "rewrite CSS!",
+  "homepage_url": "https://github.com/laa88rf",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "contextMenus",
+    "storage",
+    "downloads",
+    "clipboardWrite",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "git@github.com:laa88rf/ohmycss.git"
+  ],
+  "icons": {
+    "128": "/images/get_started128.png"
+  }
+}
